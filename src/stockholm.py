@@ -38,7 +38,7 @@ def main():
     infect_path = check_dir()
     lst = parse_file_extension(infect_path)
     if args.reverse:
-        decode()
+        decode(lst)
     else:
         encode(lst)
 
